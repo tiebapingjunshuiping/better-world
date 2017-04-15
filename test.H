@@ -1,3 +1,4 @@
+#include"malloc.h"
 typedef struct tree{
 	unsigned int type;/*type%2:0 data 1 other tree;type/2:length*/
 	union{
